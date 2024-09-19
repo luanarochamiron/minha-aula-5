@@ -1,0 +1,24 @@
+/*Margin é o espaçamento externo // padding é o espaçamento interno*/
+
+.caixa1{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: 50%;
+    transform: translateX(-50%); /*esse atributo e valor em -50%, faz com que o elemento se desloque pela metade do valor dele,tanto para cima (y negativo), quanto para a esquerda x negativo)*/
+
+}
+
+.caixa2{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 250px 0px; /*aplica margem para osa 4 cantos do objeto*/
+}
+
+.caixa3{
+    width: 300px;
+    height: 300px;
+    background-color: blue
+    
+}
